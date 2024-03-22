@@ -18,4 +18,70 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #4d4f62;
+}
+.header {
+  width: 311px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.title-light {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.title-bold {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.p-principal {
+  font-size: 0.9375rem;
+}
+
+.main {
+  width: 311px;
+  margin-inline: auto;
+}
+
+.titles {
+  margin-block: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.p-card {
+  margin-block: 0;
+  font-size: 0.8125rem;
+}
+.card {
+  position: relative;
+  margin-bottom: 10px;
+  width: 311px;
+  height: 222px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px #dadae5;
+}
+.card-supervisor {
+  border-top: 4px solid #00c8c8;
+}
+.card-teambuilder {
+  border-top: 4px solid #ff637b;
+}
+.card-karma {
+  border-top: 4px solid #fdbf00;
+}
+.card-calculator {
+  border-top: 4px solid #377fd2;
+}
+
+.icon {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 200px;
+  top: 120px;
 }
