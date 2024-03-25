@@ -23,65 +23,79 @@ body {
 }
 .header {
   width: 311px;
-  text-align: center;
   margin-inline: auto;
+  margin-top: 85px;
+  margin-bottom: 76px;
+  text-align: center;
+} 
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 540px;
+margin: 80px auto 64px;
+  }
 }
 
-.title-light {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
+.title, .subtitle {
   font-size: 1.5rem;
+  margin-block: 0;
+}
+.subtitle {
   font-weight: 200;
 }
-.title-bold {
-  margin: 0;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-.p-principal {
-  font-size: 0.9375rem;
-}
 
-.main {
+@media screen and (min-width: 768px) {
+
+}
+.text {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+main {
   width: 311px;
   margin-inline: auto;
 }
-
-.titles {
-  margin-block: 0;
-  font-weight: 600;
-  font-size: 1.25rem;
-}
-.p-card {
-  margin-block: 0;
-  font-size: 0.8125rem;
-}
 .card {
-  position: relative;
-  margin-bottom: 10px;
   width: 311px;
   height: 222px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 30px #dadae5;
+  border-radius: 8px;
+  padding: 28px;
+box-shadow: 0 15px 30px -11px rgb(131 166 210 / 0.5);
+margin-top: 10px;
 }
-.card-supervisor {
-  border-top: 4px solid #00c8c8;
-}
-.card-teambuilder {
-  border-top: 4px solid #ff637b;
-}
-.card-karma {
-  border-top: 4px solid #fdbf00;
-}
-.card-calculator {
-  border-top: 4px solid #377fd2;
+.card-title, .p-card {
+margin-block: 0;
 }
 
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.p-text {
+  font-size: 0.8125rem;
+}
 .icon {
   position: absolute;
-  width: 57px;
-  height: 57px;
-  left: 200px;
-  top: 120px;
+  right: 28px;
+  bottom: 28px;
+}
+
+.card-supervisor {
+  border-top: 4px solid #00c8c8
+}
+.card-teambuilder {
+  border-top: 4px solid red
+
+}
+.card-karma { 
+  border-top: 4px solid orange
+}
+.card-calculator{
+  border-top: 4px solid blue
+}
+
+@media screen and (min-width:768px) {
+  .card{
+    position: absolute;
+  }
 }
